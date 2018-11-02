@@ -1,9 +1,4 @@
 $(document).ready(function(){
-	/*$('#form_trigger').click(function(event){
-		$('#contact_form').slideToggle();
-		return false;
-	});
-	*/
 	$('#contact_form').submit(function(){
 		return verifyForm();
 	});
@@ -46,18 +41,18 @@ function verifyForm(){
 	}
 }
 
-	
+
 function validName(){
 	var name = document.getElementById("name");
 	var nameerr = document.getElementById("nameerror");
 
 	if (trimSpace(name.value)!=''){
 		nameerr.style.display="none";
-		return true;		
+		return true;
 	}
 	else {
 		nameerr.style.display="inline";
-		return false;		
+		return false;
 	}
 }
 
@@ -78,7 +73,7 @@ function validEmail(){
 	}
 	else {
 		emailerr.style.display="inline";
-		return false;	
+		return false;
 	}
 }
 
@@ -88,11 +83,11 @@ function validMessage(){
 
 	if (trimSpace(message.value)!=''){
 		msgerr.style.display="none";
-		return true;			
+		return true;
 	}
 	else {
 		msgerr.style.display="inline";
-		return false;		
+		return false;
 	}
 }
 
