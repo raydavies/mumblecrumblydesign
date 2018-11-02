@@ -1,0 +1,49 @@
+html, body {
+	height:100%;
+	width:100%;
+	cursor:default;
+}
+
+body {	
+	margin:0px;
+	padding:0px;
+	font-size:100%;
+	font-family:"Futura", "Century Gothic", sans-serif;
+	color:white;
+	text-align:center;
+	background:#000000;
+}
+
+a img {
+	border:none;
+}
+
+a {
+	text-decoration:none;
+	display:block;
+	position:absolute;
+	bottom:20px;
+	color:white;
+	font-size:14pt;
+}
+
+a:hover {
+	font-weight:bold;
+}
+
+img {
+	display:block;
+	position:relative;
+	padding-top:8%;
+	margin:0px auto;
+
+}
+
+#link_wrapper {
+	width:100px;
+	margin:0px auto;
+}
+
+.hidden {
+	display:none;
+}
